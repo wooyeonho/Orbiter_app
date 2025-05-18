@@ -1,0 +1,26 @@
+name: orbiter_app
+description: A self‑awareness routine assistant app powered by GPT & Supabase.
+publish_to: 'none'
+version: 1.0.1+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  supabase_flutter: ^1.10.21
+  flutter_dotenv: ^5.1.0
+  http: ^0.13.5
+  fl_chart: ^0.63.0
+  package_info_plus: ^5.0.1
+  uuid: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+
+flutter:
+  uses-material-design: true
